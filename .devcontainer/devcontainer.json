@@ -1,0 +1,17 @@
+{
+  "name": "BentoGO",
+  "build": { "dockerfile": "Dockerfile" },
+  
+  // Isso injeta o segredo do GitHub como uma variável de ambiente dentro do container
+  "remoteEnv": {
+    "CLOUDFLARE_AUTH_KEY": "${localEnv:CLOUDFLARE}"
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
