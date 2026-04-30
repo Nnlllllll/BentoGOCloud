@@ -1,11 +1,11 @@
 {
   "name": "BentoGO",
-  "build": { "dockerfile": "Dockerfile" },
-
-  "remoteEnv": {
-    "CLOUDFLARE_AUTH_KEY": "${localEnv:CLOUDFLARE}"
+  "build": {
+    "dockerfile": "Dockerfile"
   },
-
+  "remoteEnv": {
+    "CLOUDFLARE_AUTH_KEY": "${containerEnv:CLOUDFLARE}"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
