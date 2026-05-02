@@ -1,9 +1,14 @@
 {
   "name": "BentoGO",
-  "build": { "dockerfile": "Dockerfile" },
+  
+  // Instrui o VS Code a construir a imagem a partir do arquivo Dockerfile local
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
 
+  // Mapeia variáveis de ambiente do GitHub Secrets para dentro do container
   "remoteEnv": {
-    "CLOUDFLARE_AUTH_KEY": "${localEnv:CLOUDFLARE}"
+    "CLOUDFLARE_TOKEN": "${localEnv:CLOUDFLARE_TOKEN}"
   },
 
   "customizations": {
