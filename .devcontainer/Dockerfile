@@ -21,3 +21,8 @@ RUN mkdir -p --mode=0755 /usr/share/keyrings \
 
 # Limpeza para reduzir o tamanho da imagem
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Instala dependências do sistema necessárias para ferramentas de debug e bibliotecas gráficas
+RUN apt-get update && apt-get install -y \
+    libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
