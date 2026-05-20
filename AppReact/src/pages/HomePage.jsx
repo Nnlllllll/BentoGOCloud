@@ -18,7 +18,8 @@ export default function HomePage() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title} style={{ fontFamily: 'DaysOne' }}>
+      <div className={styles.logos} style={{paddingBottom: 150}}>
+      <h1 className={styles.title} style={{ fontFamily: 'DaysOne'}}>
         BentoGo
       </h1>
       
@@ -26,37 +27,25 @@ export default function HomePage() {
         src={logo} 
         alt="Logo"
         style={{ 
-          width: '150px', 
-          height: '150px', 
+          width: '250px', 
+          height: '250px', 
           objectFit: 'contain', 
           display: 'block',
           margin: '20px auto' 
         }} 
-      />
+      />  
+      </div>
+      
 
-      <div className={styles.buttonContainer}>
-        <button
-          className={styles.buttonSecondary}
-          onClick={() => navigate("/settings")}
-          style={{ backgroundColor: '#4F5A66', color: 'white' }}
-        >
-          Ir para Configurações
-        </button>
+      <div className={styles.buttonContainer} style={{paddingBottom: 200}}>
 
         <button
           className={styles.buttonPrimary}
           onClick={() => navigate("/main")}
         >
-          Abrir Mapa 3D
+          Iniciar
         </button>
 
-        <button
-          className={styles.buttonTest}
-          onClick={testarBanco}
-          style={{ backgroundColor: '#841584', color: 'white', marginTop: '20px' }}
-        >
-          Testar Conexão com Servidor
-        </button>
       </div>
     </div>
   );
