@@ -3,13 +3,13 @@ import { useNavigate } from "react-router-dom";
 import logo from "../assets/logo-Bento-Quirino-sem-fundo-branco.png";
 import styles from "../styles/Setting.module.css";
 
-export default function SettingPage() {
+export default function InfoPage() {
   const navigate = useNavigate();
 
   return (
     <div className={styles.container}>
       <h1 className={styles.title} style={{ fontFamily: 'DaysOne' }}>
-        Configs
+        Info sobre os projetos
       </h1>
       
       <img 
@@ -23,20 +23,6 @@ export default function SettingPage() {
           margin: '20px auto' 
         }} 
       />
-
-      <button
-          className={styles.buttonPrimary}
-          onClick={() => navigate("/main")}
-      >
-          Voltar para main
-      </button>
-      <div className={styles.container2}>
-        <button
-          className={styles.buttonSecondary}
-      >
-          Modo goku black
-      </button>
-      </div>
     </div>
   );
 }

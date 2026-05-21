@@ -25,7 +25,6 @@ export default function HomePage() {
       
       <img 
         src={logo} 
-        alt="Logo"
         style={{ 
           width: '250px', 
           height: '250px', 

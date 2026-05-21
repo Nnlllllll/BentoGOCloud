@@ -5,6 +5,7 @@
   justify-content: center;
   min-height: 100vh;
   padding: 0px;
+  zoom: 0.9;
   background-color: #f5f7fa;
   border: 10px solid red;
   box-shadow: inset 0 0 0 15px orange;
@@ -12,13 +13,10 @@
 
 
 .title {
-  color: #333; 
+  color: #333;
+  margin-bottom: 10px;
   text-align: center;
   font-size: 2.5rem;
-}
-
-.logos{
-  margin-bottom: 300px;
 }
 
 .buttonContainer {
@@ -32,7 +30,7 @@
 }
 
 .buttonPrimary, .buttonSecondary, .buttonTest {
-  width: 100;
+  width: 100%;
   padding: 12px 20px;
   border: none;
   border-radius: 8px;
