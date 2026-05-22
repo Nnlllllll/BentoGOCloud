@@ -20,6 +20,5 @@ cloudflared tunnel run --token $CLOUDFLARE_TOKEN
 
 Home feito por Pedro
 Info feito por Pedro
----
 Main feito por Nathan
 Settings feito por Nathan
