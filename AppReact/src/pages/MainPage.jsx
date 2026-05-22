@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF, Bounds } from "@react-three/drei"; 
 import settings from "../assets/settings.png";
 import voltar from "../assets/voltar.png";
+import info from "../assets/info.png";
 import styles from "../styles/Main.module.css";
 import { useNavigate } from "react-router-dom";
 
@@ -38,6 +39,22 @@ export default function MainPage() {
                Localização
         </h1>
        <div className={styles.containerSettings}>
+
+        <button
+          className={styles.buttonInfo}
+          onClick={() => navigate("/info")}
+          >
+          <img 
+            src={info} 
+            style={{ 
+              width: '50px', 
+              height: '50px', 
+              objectFit: 'contain', 
+              display: 'block',
+              margin: '20px auto' 
+                  }} 
+           /> 
+        </button> 
 
         <button
           className={styles.buttonSettings}

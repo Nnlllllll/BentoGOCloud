@@ -39,7 +39,11 @@
   right: 45px;
   z-index: 1000;
 }
-
+.containerInfo {
+  position: absolute;
+  top: 25px;
+  z-index: 1000;
+}
 .buttonSettings {
   background-color: transparent;
   border: none;
@@ -67,6 +71,22 @@
 }
 
 .buttonVoltar img {
+  width: 28px;
+  height: 28px;
+  display: block;
+  transition: filter 0.2s ease;
+}
+
+.buttonInfo {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  zoom: 0.9;
+  outline: none;
+  padding-right: 20px;
+}
+
+.buttonInfo img {
   width: 28px;
   height: 28px;
   display: block;

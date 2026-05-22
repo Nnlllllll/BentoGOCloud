@@ -16,3 +16,10 @@ sudo cloudflared service install $CLOUDFLARE_TOKEN
 
 # OR run the tunnel manually in your current terminal session only:
 cloudflared tunnel run --token $CLOUDFLARE_TOKEN
+
+
+Home feito por Pedro
+Info feito por Pedro
+---
+Main feito por Nathan
+Settings feito por Nathan
