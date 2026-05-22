@@ -2,6 +2,12 @@ Home feito por Pedro,
 Info feito por Pedro,
 Main feito por Nathan e
 Settings feito por Nathan
+Como usar:
+cd AppReact
+npm i
+npm run dev
+seguir localhost:5173
+
 
 # CLoud Flare
 # Debian:
