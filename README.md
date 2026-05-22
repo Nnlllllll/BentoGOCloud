@@ -18,7 +18,7 @@ sudo cloudflared service install $CLOUDFLARE_TOKEN
 cloudflared tunnel run --token $CLOUDFLARE_TOKEN
 
 
-Home feito por Pedro
-Info feito por Pedro
-Main feito por Nathan
+Home feito por Pedro,
+Info feito por Pedro,
+Main feito por Nathan e
 Settings feito por Nathan
