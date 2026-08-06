@@ -18,33 +18,31 @@ export default function HomePage() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.logos} style={{paddingBottom: 150}}>
-      <h1 className={styles.title} style={{ fontFamily: 'DaysOne'}}>
-        BentoGo
-      </h1>
-      
-      <img 
-        src={logo} 
-        style={{ 
-          width: '250px', 
-          height: '250px', 
-          objectFit: 'contain', 
-          display: 'block',
-          margin: '20px auto' 
-        }} 
-      />  
+
+      <div className={styles.logos}>
+        <h1 className={styles.title} style={{ fontFamily: 'DaysOne'}}>
+          BentoGo
+        </h1>
+        
+        <img 
+          src={logo} 
+          style={{ 
+            width: '200px', 
+            height: '200px', 
+            objectFit: 'contain', 
+            display: 'block',
+            margin: '10px auto' 
+          }} 
+        />  
       </div>
-      
 
-      <div className={styles.buttonContainer} style={{paddingBottom: 200}}>
-
+      <div className={styles.buttonContainer}>
         <button
           className={styles.buttonPrimary}
           onClick={() => navigate("/main")}
         >
-          Iniciar
+          Começar
         </button>
-
       </div>
     </div>
   );

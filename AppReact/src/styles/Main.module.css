@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   box-sizing: border-box; 
   padding: 0px;
   background-color: #f5f7fa;
@@ -91,4 +91,30 @@
   height: 28px;
   display: block;
   transition: filter 0.2s ease;
+}
+
+@media (max-width: 600px) {
+  .title {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: calc(100% - 30px);
+    font-size: 2.5rem; 
+    margin: 0;
+    padding: 10px 0;
+    background-color: #f5f7fa;
+    z-index: 100;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .containerVoltar {
+    left: 25px; 
+    top: 20px;
+  }
+
+  .containerSettings {
+    right: 25px;
+    top: 20px;
+  }
 }

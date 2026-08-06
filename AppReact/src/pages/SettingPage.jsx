@@ -9,33 +9,22 @@ export default function SettingPage() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title} style={{ fontFamily: 'DaysOne' }}>
-        Configs
-      </h1>
-      
-      <img 
-        src={logo} 
-        alt="Logo"
-        style={{ 
-          width: '150px', 
-          height: '150px', 
-          objectFit: 'contain', 
-          display: 'block',
-          margin: '20px auto' 
-        }} 
-      />
+        Configurações
+      </h1> 
 
-      <button
+      <div className={styles.buttonContainer}>
+        <button
+          className={styles.buttonPrimary2}
+          //implementar modo escuro
+        >
+          Modo Escuro
+        </button>
+        <button
           className={styles.buttonPrimary}
           onClick={() => navigate("/main")}
-      >
-          Voltar para main
-      </button>
-      <div className={styles.container2}>
-        <button
-          className={styles.buttonSecondary}
-      >
-          Modo goku black
-      </button>
+        >
+          Voltar
+        </button>
       </div>
     </div>
   );

@@ -27,23 +27,9 @@ export default function InfoPage() {
               </button> 
              </div>
       <h1 className={styles.title} style={{ fontFamily: 'DaysOne' }}>
-        Info sobre os projetos
+        Sobre o Projeto:...
       </h1>
-      
-      <img 
-        src={logo} 
-        alt="Logo"
-        style={{ 
-          width: '150px', 
-          height: '150px', 
-          objectFit: 'contain', 
-          display: 'block',
-          margin: '20px auto' 
-        }} 
-      />
-    <div className={styles.container2}>
-      <h2> bla bla bla </h2>
-    </div>
+
     </div>
     
   );
