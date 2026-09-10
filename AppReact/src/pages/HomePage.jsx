@@ -45,17 +45,16 @@ export default function HomePage() {
 
           <div className={styles.twodivsgeneral}>
             <span>
-              Nosso projeto é um mapa interativo em 3D da Escola Técnica
-              Estadual Bento Quirino, desenvolvido para facilitar a orientação
-              de pais, familiares, estudantes e visitantes durante a primeira
-              visita à escola. O problema identificado é a dificuldade de se
-              localizar em um ambiente ainda desconhecido e encontrar os
-              espaços onde estão os diferentes projetos da Bentotec. Como
-              solução, o BentoGo apresenta um mapa interativo que permite
-              visualizar a escola, acompanhar a localização do usuário e
-              identificar onde cada projeto e espaço está localizado. Dessa
-              forma, o aplicativo torna a visita mais simples, intuitiva e
-              acessível para todos.
+              O BentoGo é um projeto desenvolvido para facilitar a orientação dentro da
+              Escola Técnica Estadual Bento Quirino. A proposta é tornar a experiência de
+              alunos, familiares e visitantes mais simples, principalmente para quem
+              ainda não conhece o espaço da escola. Durante uma primeira visita, encontrar
+              salas, projetos e outros ambientes pode ser difícil quando não se conhece
+              a estrutura do local. Pensando nisso, o projeto foi desenvolvido para
+              auxiliar diferentes públicos que precisam se localizar dentro da escola,
+              oferecendo uma forma mais visual e intuitiva de conhecer o ambiente. Assim,
+              o BentoGo busca diminuir a dificuldade de orientação e tornar o deslocamento
+              pela escola mais fácil.
             </span>
           </div>
 
@@ -67,16 +66,17 @@ export default function HomePage() {
 
           <div className={styles.twodivsgeneral}>
             <span>
-              O BentoGo é uma solução digital desenvolvida para facilitar a
-              orientação dentro da Escola Técnica Estadual Bento Quirino. Por
-              meio de um mapa interativo em 3D, o usuário pode explorar a
-              escola, visualizar a localização dos espaços e projetos da
-              Bentotec e acompanhar sua própria posição utilizando o GPS do
-              dispositivo. O sistema também oferece uma visão superior do
-              mapa para facilitar a compreensão do ambiente. Para desenvolver
-              a aplicação, foram utilizadas tecnologias como React, React
-              Router, Three.js, React Three Fiber, Drei, Geolocation API, CSS
-              Modules e um modelo 3D da escola em formato GLB.
+              Para solucionar esse problema, o BentoGo utiliza um mapa interativo em 3D
+              que permite ao usuário conhecer a estrutura da escola e acompanhar sua
+              própria posição durante o deslocamento. A localização é obtida pelo GPS do
+              dispositivo e representada diretamente no mapa. O sistema também permite
+              alternar entre diferentes formas de visualização, facilitando a compreensão
+              do espaço e ajudando o usuário a encontrar os locais de interesse. Dessa
+              maneira, a orientação pode ser feita de forma mais dinâmica do que
+              utilizando apenas uma representação tradicional da escola. A aplicação foi
+              desenvolvida utilizando React, React Router, Three.js, React Three Fiber,
+              Drei, Geolocation API e CSS Modules. O ambiente da escola é representado
+              por um modelo 3D em formato GLB, utilizado como base para a navegação.
             </span>
           </div>
 
