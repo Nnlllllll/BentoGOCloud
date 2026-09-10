@@ -1,3 +1,4 @@
+```
 Feito por Nathan e Pedro Bragante.
 
 Como usar:
@@ -16,3 +17,4 @@ cd AppExpo
 npm i
 npx expo start
 (tem que estar com o tunnel da cloudflare, ou outro, ativo no dominio indicado em App.js)
+```
