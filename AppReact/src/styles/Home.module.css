@@ -19,6 +19,23 @@
 
   overflow: visible;
 }
+/*treco creators */
+.creators {
+  position: fixed;
+
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+
+  text-align: center;
+
+  color: #333;
+
+  font-family: "DaysOne", sans-serif;
+  font-size: 0.8rem;
+
+  z-index: 10000;
+}
 
 .container::before {
   content: "";
@@ -48,7 +65,7 @@
 
   position: absolute;
 
-  top: 10px;
+  top: 25px;
   left: 20px;
 
   z-index: 2;
@@ -61,6 +78,8 @@
 
   width: 100%;
 }
+
+
 
 .title {
   color: #333;
@@ -114,7 +133,7 @@
   transform: translateY(-100px);
 }
 
-.twodivsgeneral {
+.divtextos {
   width: 350px;
 
   height: auto;
@@ -136,6 +155,7 @@
 
   background-color: #f5f7fa;
 
+  /* Moldura dupla */
   border: 3px solid #333;
 
   box-shadow:
@@ -219,6 +239,7 @@
   transform: translateY(-2px);
 }
 
+/* celphon */
 @media (max-width: 600px) {
 
   .container {
@@ -309,10 +330,14 @@
     position: relative;
   }
 
+
+  /* Conteúdo 1 */
   .twodivsgeneral:nth-child(1) {
     order: 5;
   }
 
+
+  /* Conteúdo 2 */
   .twodivsgeneral:nth-child(3) {
     order: 6;
   }
@@ -330,12 +355,20 @@
     width: 40px;
     height: 40px;
 
-    top: 8px;
+    top: 20px;
     left: 12px;
   }
 }
 
+  .creators {
+  bottom: 30px;
+  padding: 0 10px;
+  box-sizing: border-box;
 
+  font-size: 0.65rem;
+  }
+
+/* celular muito piquititico */
 @media (max-width: 400px) {
 
   .title {
@@ -371,5 +404,13 @@
   .smallLogo {
     width: 35px;
     height: 35px;
+  }
+
+  .creators {
+  bottom: 10px;
+  padding: 0 10px;
+  box-sizing: border-box;
+
+  font-size: 0.65rem;
   }
 }
