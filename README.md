@@ -18,7 +18,7 @@ Para o recurso de localização, utilizamos a API de geolocalização do navegad
  porem continua sendo um recurso nativo, apenas a forma como eu acessamos ele muda.
  Ela acompanha a posição do usuário e retorna a latitude, longitude e a precisão
 da leitura. Depois, eu transformo essas coordenadas em uma posição dentro do mapa 3D,
-e essa posição é usada para movimentar o personagem.
+e essa posição é usada para movimentar o personagem em teoria.
 
 Como usar:
 
